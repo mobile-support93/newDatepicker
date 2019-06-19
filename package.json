@@ -1,0 +1,107 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ion-datepicker",
+        "scope": null,
+        "escapedName": "ion-datepicker",
+        "name": "ion-datepicker",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/devuser/Downloads/sagar n/create-exp1-copy"
+    ]
+  ],
+  "_from": "ion-datepicker@latest",
+  "_hasShrinkwrap": false,
+  "_id": "ion-datepicker@2.8.2",
+  "_inCache": true,
+  "_location": "/ion-datepicker",
+  "_nodeVersion": "8.11.1",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ion-datepicker_2.8.2_1558109091971_0.1665920854926275"
+  },
+  "_npmUser": {
+    "name": "misha130",
+    "email": "misha130@gmail.com"
+  },
+  "_npmVersion": "6.9.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ion-datepicker",
+    "scope": null,
+    "escapedName": "ion-datepicker",
+    "name": "ion-datepicker",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/ion-datepicker/-/ion-datepicker-2.8.2.tgz",
+  "_shasum": "01b300963819867080758bcf9812386068ddcbf1",
+  "_shrinkwrap": null,
+  "_spec": "ion-datepicker",
+  "_where": "/Users/devuser/Downloads/sagar n/create-exp1-copy",
+  "author": {
+    "name": "Misha Tarnorutksy",
+    "email": "misha130@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/misha130/ion-datepicker/issues"
+  },
+  "dependencies": {},
+  "description": "A date picker for ionic",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-2VzncQHOiMtLuzM6ONG48bWCt8Phz6N75SeWgN4XxtAcdPCi8BAmTE9UuCTq60f2XFPPE3l6FyC64xxcXIbQuQ==",
+    "shasum": "01b300963819867080758bcf9812386068ddcbf1",
+    "tarball": "https://registry.npmjs.org/ion-datepicker/-/ion-datepicker-2.8.2.tgz",
+    "fileCount": 104,
+    "unpackedSize": 275185,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc3tukCRA9TVsSAnZWagAAMR0P/2KcSVJ7A8OLdOZW8ilm\nQA3K+W4FeF7FkpzEvwA6Z9Vg8IoXRADBlud+gjROA9BxXEdeTpcAOPTLVo1j\nAsig6WMTlolXNRXnok5/ivFdm+FU7rUw6Cli+laSddTJqqVTWduMqw8eLiLn\n4P56/Oj9zeBPoFM6jM+T0/4SitGFAaIXdFr756w9ppuw8lrY4Pb3VMeTPcOr\nSAMiEI8jisLs+icx0YjkH8CNEYTdYMBf/MhkM6MGuPU66GrFmWF40UEgUDzL\nGSo/O9oHhb/2EUbnOVHEFmIUFAd75zwzuMcVwGfdU38PlQ2DZFUDBQRz1Fh8\ndpqwMUC6MjnmeTJofBXinNbUAdEcAbGB/ghjSXPHfujBBrBtTlLWYF6sQEkD\nnks34UuMSmiU64R3YellIR/DXQZNr2yS3kNzaOTko2SkpwlXsZpIs8JAVVj9\n9enHzujCZfs1fzLERzrJBPzPHi/FB+nrUEz+jwDVa+D3NLvQi3SRwOZdUHlv\nA3LOgg4n/mDVj68BZrjiyBoLZk7Sk3DnuTs0GxSZD4W9iROLaTt2R4L6ubZi\nKHEn79ttFQkZeAVacw54e+V8/Mmwj/k4Jk8duTsdBF640kIh9wVqX/QN2fU/\nc8DZE7QRYqg3ZeIXWWcSvg5yeyOFxKOmU5BByCw0E7ejy6MaNFafaQMJRX1N\n/oT0\r\n=NKBD\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://github.com/misha130/ion-datepicker#readme",
+  "keywords": [
+    "datepicker-ionic3",
+    "ionic3",
+    "ionic2",
+    "ionic3 datepicker",
+    "datepicker",
+    "datepicker ionic3",
+    "datepicker for ionic3",
+    "datepicker for ionic3 framework"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "misha130",
+      "email": "misha130@gmail.com"
+    },
+    {
+      "name": "pdesire",
+      "email": "tristan@sqrls.de"
+    }
+  ],
+  "name": "ion-datepicker",
+  "optionalDependencies": {},
+  "peerDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misha130/ion-datepicker.git"
+  },
+  "scripts": {
+    "build": "npm run ngc && node ./scripts/copy-package",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -u",
+    "dev": "tsc --watch",
+    "ngc": "ngc",
+    "publishPackage": "npm run build && cd dist && npm publish"
+  },
+  "version": "2.8.2"
+}
